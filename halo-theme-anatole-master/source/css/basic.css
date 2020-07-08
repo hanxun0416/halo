@@ -1,0 +1,80 @@
+.bx-wrapper img{
+    height:293px;
+    width:100%;
+}
+.pagination {
+margin: 2rem 0 0;
+}
+
+@media (max-width: 767.98px) {
+.pagination {
+margin: 1.75rem 0 .5rem;
+}
+}
+.screen-reader-text {
+border: 0;
+clip: rect(1px, 1px, 1px, 1px);
+-webkit-clip-path: inset(50%);
+clip-path: inset(50%);
+height: 1px;
+margin: -1px;
+overflow: hidden;
+padding: 0;
+position: absolute !important;
+width: 1px;
+word-wrap: normal !important
+}
+
+.screen-reader-text:focus {
+background-color: #f4f4f5;
+clip: auto !important;
+-webkit-clip-path: none;
+clip-path: none;
+color: #232a31;
+display: block;
+font-size: 1em;
+height: auto;
+left: 5px;
+line-height: normal;
+padding: 15px 23px 14px;
+text-decoration: none;
+top: 5px;
+width: auto;
+z-index: 100000
+}
+.nav-links {
+position: relative;
+}
+
+.nav-links>span,
+.nav-links>a {
+position: relative;
+display: inline-block;
+color: #535353;
+background-color: #fff;
+padding: .5rem .9375rem;
+margin: 0 .125rem 0 0;
+font-size: 0.875rem;
+border-radius: 3px;
+}
+
+.nav-links>.prev:hover,
+.nav-links>.next:hover,
+.nav-links>.current {
+z-index: 2;
+color: #fff !important;
+background-color: #50a1ff;
+}
+
+.nav-links .prev,
+.nav-links .next {
+padding: .5rem .65rem;
+}
+
+.nav-links .prev {
+margin: 0 .125rem 0 0;
+}
+
+.nav-links .next {
+margin: 0
+}
